@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Darbaan Visual Studio — Creative Marketing Agency</title>
+  <meta name="description" content="Darbaan Visual Studio — creative marketing agency. Photography, video production, TV and digital video commercials, event coverage, food and fashion films, social media management and marketing.">
+  <meta name="theme-color" content="#F7F7F5">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Oswald:wght@300;400;500&family=Playfair+Display:wght@600&family=Roboto+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--
+  Layout note: every block is placed on a design artboard.
+    Mobile  (< 1024px): 375px artboard,  --x / --y / --w / --h,  section height --sh
+    Desktop (≥ 1024px): 1440px artboard, --dx / --dy / --dw / --dh, section height --dsh
+  1rem = 10 design px on either artboard and scales with the screen (see css/style.css).
+  For headline words (.serif / .heavy / .sans) the y value is the top of the capitals,
+  the h value their cap height and the w value the width the word is fitted to.
+-->
+<div class="page" id="top">
+
+  <!-- ===================== 1. HERO ===================== -->
+  <header class="s hero" style="--sh:400;--dsh:800">
+    <div class="map" aria-hidden="true"></div>
+
+    <a class="lockup" href="#top" aria-label="Darbaan Visual Studio — home">
+      <span class="t sans" style="--x:21;--y:29;--h:18;--w:82;--dx:80;--dy:56;--dh:26;--dw:116">Darbaan</span>
+      <span class="t sans" style="--x:21;--y:53;--h:18;--w:143;--dx:80;--dy:90;--dh:26;--dw:210">Visual Studio</span>
+    </a>
+    <span class="box frame" style="--x:108;--y:28;--w:30;--h:20;--dx:206;--dy:55;--dw:48;--dh:28"></span>
+
+    <button class="burger box" style="--x:341;--y:42;--w:22;--h:16;--dx:1330;--dy:75;--dw:30;--dh:22" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <h1 class="sr-only">Darbaan Visual Studio — Creative Marketing Agency</h1>
+    <span class="t heavy" style="--x:15;--y:124;--h:95;--w:226;--dx:80;--dy:220;--dh:250;--dw:595" aria-hidden="true">Crea</span>
+    <span class="t heavy" style="--x:141;--y:219;--h:92;--w:205;--dx:640;--dy:470;--dh:250;--dw:540" aria-hidden="true">tive</span>
+
+    <span class="box frame" style="--x:22;--y:223;--w:15;--h:15;--dx:82;--dy:512;--dw:22;--dh:22"></span>
+    <p class="cap cap--dark cap--b" style="--x:45;--y:222;--dx:116;--dy:511">marketing<br>agency</p>
+
+    <a class="btn box" style="--x:139;--y:341;--w:104;--h:27;--dx:80;--dy:640;--dw:220;--dh:52" href="#contact">Get in touch</a>
+  </header>
+
+  <!-- Menu overlay -->
+  <nav class="menu" id="menu" aria-label="Navigation" hidden>
+    <ol class="menu__list">
+      <li><a href="#about"><span>01</span>Studio</a></li>
+      <li><a href="#portfolio"><span>—</span>Portfolio</a></li>
+      <li><a href="#approach"><span>02</span>Approach</a></li>
+      <li><a href="#services"><span>03</span>Services</a></li>
+      <li><a href="#work"><span>04</span>Work</a></li>
+      <li><a href="#contact"><span>05</span>Contact</a></li>
+    </ol>
+    <a class="btn menu__btn" href="#contact">Get in touch</a>
+  </nav>
+
+  <main>
+
+    <!-- ===================== 2. INTRO ===================== -->
+    <section class="s" id="about" style="--sh:550;--dsh:1180">
+      <span class="box frame frame--tl" style="--x:25;--y:24;--w:248;--h:231;--dx:140;--dy:40;--dw:636;--dh:520"></span>
+      <figure class="box ph" style="--x:33;--y:31;--w:240;--h:223;--dx:156;--dy:56;--dw:620;--dh:504">
+        <img src="images/intro.jpg" alt="Mountains and sea at dusk" class="f-muted" style="object-position:50% 60%">
+      </figure>
+
+      <span class="box index" style="--x:286;--y:109;--w:74;--h:25;--dx:1176;--dy:120;--dw:184;--dh:52">01</span>
+
+      <h2 class="sr-only">We capture what truly matters: genuine moments and the people who fill them</h2>
+      <span class="t sans halo" style="--x:188;--y:148;--h:18;--w:172;--dx:940;--dy:250;--dh:44;--dw:420" aria-hidden="true">We capture what</span>
+      <span class="t sans halo" style="--x:200;--y:168;--h:18;--w:160;--dx:968;--dy:304;--dh:44;--dw:392" aria-hidden="true">truly matters:</span>
+      <span class="t serif hollow knock" style="--x:103;--y:193;--h:36;--w:164;--dx:700;--dy:368;--dh:92;--dw:419" aria-hidden="true">Genuine</span>
+      <span class="t serif hollow knock" style="--x:214;--y:222;--h:32;--w:146;--dx:978;--dy:474;--dh:84;--dw:382" aria-hidden="true">moments</span>
+      <span class="t sans" style="--x:161;--y:263;--h:16;--w:142;--dx:1040;--dy:590;--dh:36;--dw:320" aria-hidden="true">and the people</span>
+      <span class="t sans" style="--x:161;--y:282;--h:16;--w:132;--dx:1040;--dy:636;--dh:36;--dw:298" aria-hidden="true">who fill them</span>
+
+      <p class="cap" style="--x:33;--y:261;--dx:156;--dy:576">Dusk, south<br>october<br>f 2.8</p>
+      <p class="cap" style="--x:124;--y:261;--dx:300;--dy:576">35 mm<br>iso 100</p>
+
+      <figure class="box ph ph--s" style="--x:109;--y:332;--w:76;--h:95;--dx:460;--dy:760;--dw:200;--dh:250">
+        <img src="images/eye.jpg" alt="Close-up of an eye" class="zoom-eye">
+      </figure>
+      <p class="t sans sans--soft" style="--x:195;--y:335;--h:10;--w:165;--dx:700;--dy:768;--dh:18;--dw:298">We are inspired by people.</p>
+      <p class="p" style="--x:195;--y:352;--w:165;--dx:700;--dy:804;--dw:400">Photography, film and social content shaped around people, light and story&nbsp;— honest images for brands that want to be seen as they are.</p>
+
+      <span class="box rule" style="--x:21;--y:455;--w:341;--h:5;--dx:80;--dy:1060;--dw:1280;--dh:6"></span>
+      <p class="p" style="--x:21;--y:470;--w:341;--dx:80;--dy:1086;--dw:900">We work across photography, video production, TV commercials, digital video commercials, event coverage, food and fashion films, and social media management and marketing.</p>
+      <span class="box hair" style="--x:21;--y:536;--w:341;--h:1;--dx:80;--dy:1150;--dw:1280;--dh:1"></span>
+    </section>
+
+    <!-- ===================== 3. PORTFOLIO ===================== -->
+    <section class="s" id="portfolio" style="--sh:1125;--dsh:1090">
+      <span class="box frame" style="--x:103;--y:15;--w:116;--h:178;--dx:600;--dy:20;--dw:252;--dh:372"></span>
+      <span class="num" style="--x:211;--y:6;--dx:836;--dy:6">01</span>
+      <figure class="box ph" style="--x:109;--y:24;--w:97;--h:163;--dx:612;--dy:32;--dw:228;--dh:348">
+        <img src="images/pf-1.jpg" alt="Portrait in profile" class="f-dark" style="object-position:40% 30%">
+      </figure>
+      <span class="num" style="--x:209;--y:196;--dx:828;--dy:400">/24</span>
+
+      <span class="box frame" style="--x:238;--y:157;--w:63;--h:68;--dx:604;--dy:430;--dw:136;--dh:146"></span>
+      <figure class="box ph ph--xs" style="--x:241;--y:160;--w:57;--h:62;--dx:612;--dy:438;--dw:120;--dh:130">
+        <img src="images/pf-2.jpg" alt="Figure in a coat on a city street" class="f-bw" style="object-position:50% 35%">
+      </figure>
+      <span class="box frame" style="--x:240;--y:235;--w:54;--h:15;--dx:760;--dy:438;--dw:92;--dh:30"></span>
+
+      <span class="num" style="--x:21;--y:224;--dx:528;--dy:472">02</span>
+      <figure class="box ph" style="--x:21;--y:234;--w:201;--h:145;--dx:80;--dy:130;--dw:460;--dh:330">
+        <img src="images/pf-3.jpg" alt="Autumn forest" class="f-autumn">
+      </figure>
+      <span class="num" style="--x:21;--y:383;--dx:80;--dy:472">lifestyle</span>
+
+      <h2 class="t serif halo" style="--x:125;--y:365;--h:28;--w:170;--dx:80;--dy:60;--dh:90;--dw:496">Portfolio</h2>
+
+      <span class="box frame" style="--x:243;--y:416;--w:55;--h:62;--dx:1050;--dy:60;--dw:140;--dh:160"></span>
+      <span class="num" style="--x:345;--y:406;--dx:1340;--dy:44">03</span>
+      <figure class="box ph ph--xs" style="--x:306;--y:416;--w:54;--h:62;--dx:1210;--dy:60;--dw:150;--dh:160">
+        <img src="images/pf-4.jpg" alt="Warm interior detail" class="f-warm">
+      </figure>
+
+      <span class="box frame" style="--x:102;--y:495;--w:262;--h:270;--dx:962;--dy:276;--dw:406;--dh:422"></span>
+      <span class="num" style="--x:102;--y:486;--dx:962;--dy:262">8</span>
+      <figure class="box ph" style="--x:112;--y:503;--w:248;--h:257;--dx:976;--dy:290;--dw:384;--dh:400">
+        <img src="images/pf-5.jpg" alt="Black and white portrait" class="f-bw" style="object-position:50% 30%">
+      </figure>
+      <span class="num" style="--x:96;--y:768;--dx:946;--dy:704">04</span>
+
+      <figure class="box ph" style="--x:21;--y:826;--w:252;--h:170;--dx:80;--dy:620;--dw:640;--dh:400">
+        <img src="images/pf-6.jpg" alt="Portrait in warm light" class="f-dark" style="object-position:50% 30%">
+      </figure>
+      <span class="num" style="--x:21;--y:1000;--dx:80;--dy:1032">close-up</span>
+      <span class="num" style="--x:262;--y:1000;--dx:700;--dy:1032">05</span>
+
+      <span class="box frame" style="--x:192;--y:1012;--w:128;--h:91;--dx:790;--dy:790;--dw:300;--dh:214"></span>
+      <span class="num" style="--x:318;--y:1004;--dx:1086;--dy:778">9</span>
+      <figure class="box ph ph--s" style="--x:197;--y:1016;--w:113;--h:77;--dx:802;--dy:800;--dw:274;--dh:186">
+        <img src="images/pf-7.jpg" alt="City architecture" class="f-bw">
+      </figure>
+      <span class="num" style="--x:322;--y:1092;--dx:1094;--dy:994">06</span>
+
+      <p class="p" style="--x:108;--y:776;--w:120;--dx:1140;--dy:830;--dw:220">A collection of stories where your brand plays the lead.</p>
+    </section>
+
+    <!-- ===================== 4. APPROACH ===================== -->
+    <section class="s" id="approach" style="--sh:645;--dsh:960">
+      <figure class="box ph ph--bleed bleed" style="--x:15;--y:32;--w:360;--h:218;--dx:80;--dy:40;--dw:1360;--dh:540">
+        <img src="images/beauty.jpg" alt="Freckled face in warm light" class="f-warm" style="object-position:50% 40%">
+      </figure>
+
+      <h2 class="sr-only">We notice beauty in the details</h2>
+      <span class="t sans halo" style="--x:103;--y:223;--h:17;--w:100;--dx:520;--dy:506;--dh:40;--dw:229" aria-hidden="true">We notice</span>
+      <span class="t serif halo" style="--x:101;--y:240;--h:33;--w:129;--dx:516;--dy:556;--dh:80;--dw:312" aria-hidden="true">beauty</span>
+      <span class="t sans" style="--x:236;--y:256;--h:17;--w:135;--dx:846;--dy:596;--dh:40;--dw:356" aria-hidden="true">in the details</span>
+
+      <p class="spread sans-s" style="--x:102;--y:283;--w:175;--dx:520;--dy:676;--dw:440">We don’t ask you to pose</p>
+      <span class="box index" style="--x:291;--y:281;--w:79;--h:27;--dx:1176;--dy:672;--dw:184;--dh:52">02</span>
+      <span class="box rule" style="--x:102;--y:303;--w:175;--h:4;--dx:520;--dy:712;--dw:440;--dh:6"></span>
+
+      <p class="p" style="--x:102;--y:320;--w:175;--dx:520;--dy:740;--dw:440">We want you to feel calm and natural in front of the camera.</p>
+      <p class="p" style="--x:102;--y:372;--w:175;--dx:520;--dy:782;--dw:440">That is when the most alive frames happen. Soft light, natural movement, honest glances&nbsp;— that is where the beauty is.</p>
+
+      <ul class="values">
+        <li class="value" style="--x:7;--y:462;--dx:1040;--dy:770">
+          <span class="value__box" aria-hidden="true"></span>
+          <span class="value__title">Light, emotion</span>
+          <span class="value__sub">important details</span>
+        </li>
+        <li class="value value--r" style="--x:157;--y:462;--dx:1040;--dy:860">
+          <span class="value__box" aria-hidden="true"></span>
+          <span class="value__title">Sincerity</span>
+          <span class="value__sub">in every movement</span>
+        </li>
+      </ul>
+
+      <figure class="box ph ph--xs" style="--x:7;--y:522;--w:271;--h:73;--dx:80;--dy:676;--dw:380;--dh:140">
+        <img src="images/kremlin.jpg" alt="City skyline in winter" class="f-bw" style="object-position:50% 55%">
+      </figure>
+      <p class="cap" style="--x:7;--y:598;--dx:80;--dy:826">City, winter<br>landscape</p>
+      <p class="cap cap--r" style="--x:218;--y:598;--w:60;--dx:400;--dy:826;--dw:60">f 5.6<br>iso 400</p>
+    </section>
+
+    <!-- ===================== 5. PROCESS ===================== -->
+    <section class="s" id="process" style="--sh:420;--dsh:900">
+      <div class="map map--process" aria-hidden="true"></div>
+
+      <p class="spread sans-s sans-s--l" style="--x:7;--y:55;--w:270;--dx:80;--dy:80;--dw:640">It all starts with a look</p>
+      <span class="box frame" style="--x:172;--y:75;--w:22;--h:25;--dx:770;--dy:126;--dw:40;--dh:50"></span>
+      <h2 class="sr-only">Production process</h2>
+      <span class="t serif" style="--x:200;--y:77;--h:25;--w:163;--dx:826;--dy:126;--dh:50;--dw:325" aria-hidden="true">Production</span>
+      <span class="t serif" style="--x:5;--y:107;--h:77;--w:365;--dx:80;--dy:200;--dh:250;--dw:1240" aria-hidden="true">Process</span>
+
+      <ol class="steps">
+        <li>
+          <span class="t serif" style="--x:15;--y:207;--h:55;--w:60;--dx:80;--dy:520;--dh:120;--dw:130" aria-hidden="true">01</span>
+          <div class="step" style="--x:7;--y:284;--w:90;--dx:80;--dy:680;--dw:300">
+            <h3>Brief:</h3>
+            <p>ideas, location,<br>mood,<br>style</p>
+          </div>
+        </li>
+        <li>
+          <span class="t serif" style="--x:150;--y:207;--h:55;--w:70;--dx:560;--dy:520;--dh:120;--dw:150" aria-hidden="true">02</span>
+          <div class="step" style="--x:150;--y:284;--w:90;--dx:560;--dy:680;--dw:300">
+            <h3>Shoot:</h3>
+            <p>natural,<br>free,<br>alive</p>
+          </div>
+        </li>
+        <li>
+          <span class="t serif" style="--x:287;--y:207;--h:55;--w:75;--dx:1040;--dy:520;--dh:120;--dw:160" aria-hidden="true">03</span>
+          <div class="step" style="--x:290;--y:284;--w:84;--dx:1040;--dy:680;--dw:300">
+            <h3>Delivery:</h3>
+            <p>selection,<br>editing,<br>colour</p>
+          </div>
+        </li>
+      </ol>
+
+      <a class="btn box" style="--x:134;--y:362;--w:111;--h:30;--dx:610;--dy:810;--dw:220;--dh:52" href="#contact">Get in touch</a>
+    </section>
+
+    <!-- ===================== 6. SERVICES ===================== -->
+    <section class="s" id="services" style="--sh:545;--dsh:980">
+      <figure class="box ph ph--bleed bleed" style="--x:102;--y:72;--w:273;--h:105;--dx:600;--dy:120;--dw:840;--dh:420">
+        <img src="images/formats.jpg" alt="Vintage-toned frame" class="f-sepia" style="object-position:50% 40%">
+      </figure>
+
+      <h2 class="sr-only">Our services</h2>
+      <span class="t sans sans--soft" style="--x:100;--y:52;--h:20;--w:40;--dx:420;--dy:60;--dh:42;--dw:84" aria-hidden="true">Our</span>
+      <span class="t serif halo" style="--x:10;--y:75;--h:31;--w:165;--dx:80;--dy:116;--dh:90;--dw:468" aria-hidden="true">Services</span>
+      <span class="box index" style="--x:7;--y:115;--w:80;--h:23;--dx:80;--dy:236;--dw:220;--dh:52">03</span>
+
+      <p class="cap" style="--x:102;--y:180;--dx:600;--dy:552">Interior, film<br>winter</p>
+      <p class="cap cap--r" style="--x:310;--y:180;--w:60;--dx:1300;--dy:552;--dw:60">f 2.0<br>iso 200</p>
+
+      <p class="spread sans-s sans-s--l" style="--x:102;--y:210;--w:270;--dx:80;--dy:336;--dw:460">Every project&nbsp;— a new story.</p>
+      <span class="box rule" style="--x:102;--y:236;--w:270;--h:5;--dx:80;--dy:372;--dw:460;--dh:6"></span>
+      <p class="p" style="--x:102;--y:257;--w:270;--dx:80;--dy:400;--dw:460">We listen, observe, notice. We see what usually hides between movements and glances. A frame is a conversation without words, built on trust and atmosphere.</p>
+
+      <ul class="prices box" style="--x:102;--y:317;--w:270;--h:175;--dx:80;--dy:640;--dw:1280;--dh:224">
+        <li><span class="prices__k">Photography</span><span class="prices__line"></span><span class="prices__v">stills</span></li>
+        <li><span class="prices__k">Video production</span><span class="prices__line"></span><span class="prices__v">film</span></li>
+        <li><span class="prices__k">TV commercials</span><span class="prices__line"></span><span class="prices__v">TVC</span></li>
+        <li><span class="prices__k">Digital video commercials</span><span class="prices__line"></span><span class="prices__v">DVC</span></li>
+        <li><span class="prices__k">Event coverage</span><span class="prices__line"></span><span class="prices__v">photo &amp; video</span></li>
+        <li><span class="prices__k">Food &amp; fashion films</span><span class="prices__line"></span><span class="prices__v">short form</span></li>
+        <li><span class="prices__k">Social media</span><span class="prices__line"></span><span class="prices__v">management &amp; marketing</span></li>
+      </ul>
+
+      <a class="btn box" style="--x:259;--y:502;--w:113;--h:32;--dx:1140;--dy:900;--dw:220;--dh:52" href="#contact">Get in touch</a>
+    </section>
+
+    <!-- ===================== 7. LIVE FRAMES ===================== -->
+    <section class="s" style="--sh:150;--dsh:260">
+      <h2 class="sr-only">Live frames</h2>
+      <span class="t serif" style="--x:5;--y:5;--h:35;--w:95;--dx:80;--dy:60;--dh:100;--dw:260" aria-hidden="true">Live</span>
+      <span class="t sans" style="--x:108;--y:17;--h:20;--w:76;--dx:360;--dy:102;--dh:58;--dw:221" aria-hidden="true">frames</span>
+      <p class="p" style="--x:5;--y:45;--w:273;--dx:760;--dy:96;--dw:520">Not perfect angles, but real feelings&nbsp;— so the images stay warm long after.</p>
+    </section>
+
+    <!-- ===================== 8. WORK ===================== -->
+    <section class="s" id="work" style="--sh:1490;--dsh:2340">
+      <h2 class="sr-only">What remains after the frame</h2>
+      <span class="t sans" style="--x:131;--y:6;--h:20;--w:52;--dx:460;--dy:40;--dh:46;--dw:117" aria-hidden="true">What</span>
+      <span class="t sans" style="--x:131;--y:32;--h:18;--w:85;--dx:460;--dy:100;--dh:46;--dw:205" aria-hidden="true">remains</span>
+      <span class="t serif" style="--x:131;--y:64;--h:26;--w:241;--dx:460;--dy:170;--dh:76;--dw:741" aria-hidden="true">after the frame</span>
+      <span class="box index" style="--x:289;--y:7;--w:83;--h:28;--dx:1176;--dy:40;--dw:184;--dh:56">04</span>
+      <span class="box rule" style="--x:131;--y:100;--w:241;--h:5;--dx:460;--dy:286;--dw:900;--dh:6"></span>
+
+      <span class="box frame frame--bracket" style="--x:7;--y:32;--w:13;--h:128;--dx:68;--dy:44;--dw:30;--dh:316"></span>
+      <figure class="box ph" style="--x:15;--y:30;--w:113;--h:120;--dx:84;--dy:40;--dw:296;--dh:300">
+        <img src="images/after.jpg" alt="Frame outdoors" class="f-warm" style="object-position:50% 75%">
+      </figure>
+
+      <!-- Food & fashion films -->
+      <article>
+        <figure class="box ph ph--bleed bleed" style="--x:102;--y:170;--w:273;--h:207;--dx:600;--dy:420;--dw:840;--dh:520">
+          <img src="images/lera.jpg" alt="Fashion portrait" style="object-position:50% 30%">
+        </figure>
+        <h3 class="t sans" style="--x:102;--y:390;--h:18;--w:160;--dx:80;--dy:600;--dh:36;--dw:320">Food &amp; fashion</h3>
+        <span class="box tag" style="--x:285;--y:385;--w:87;--h:25;--dx:420;--dy:592;--dw:140;--dh:48">Films</span>
+        <p class="p" style="--x:102;--y:419;--w:270;--dx:80;--dy:666;--dw:480">Texture, movement and detail&nbsp;— short films for food and fashion, made for screens of every size.</p>
+      </article>
+
+      <!-- Event coverage -->
+      <article>
+        <span class="box frame frame--tl" style="--x:17;--y:510;--w:173;--h:275;--dx:80;--dy:1040;--dw:420;--dh:620"></span>
+        <figure class="box ph" style="--x:30;--y:520;--w:157;--h:257;--dx:100;--dy:1060;--dw:400;--dh:600">
+          <img src="images/vika.jpg" alt="Portrait at an event" class="f-dark" style="object-position:50% 40%">
+        </figure>
+        <h3 class="t sans" style="--x:197;--y:620;--h:17;--w:65;--dx:580;--dy:1300;--dh:36;--dw:137">Events</h3>
+        <span class="box tag" style="--x:285;--y:616;--w:82;--h:23;--dx:860;--dy:1292;--dw:180;--dh:48">Coverage</span>
+        <p class="p" style="--x:197;--y:648;--w:171;--dx:580;--dy:1366;--dw:460">Events documented as they unfold&nbsp;— photo and video that keep the atmosphere of the day, not just the schedule.</p>
+        <figure class="box ph" style="--x:199;--y:740;--w:169;--h:128;--dx:1080;--dy:1060;--dw:280;--dh:380">
+          <img src="images/vika-2.jpg" alt="Outdoor portrait in winter" style="object-position:50% 30%">
+        </figure>
+      </article>
+
+      <!-- Commercials -->
+      <article>
+        <span class="box frame frame--tl" style="--x:17;--y:929;--w:351;--h:469;--dx:500;--dy:1760;--dw:860;--dh:520"></span>
+        <figure class="box ph" style="--x:31;--y:940;--w:336;--h:459;--dx:516;--dy:1776;--dw:844;--dh:504">
+          <img src="images/anzhela.jpg" alt="Portrait for a commercial" class="f-warm" style="object-position:50% 30%">
+        </figure>
+        <h3 class="t sans" style="--x:17;--y:1410;--h:17;--w:119;--dx:80;--dy:1920;--dh:36;--dw:252">Commercials</h3>
+        <span class="box tag" style="--x:270;--y:1406;--w:98;--h:24;--dx:80;--dy:1972;--dw:160;--dh:48">TVC / DVC</span>
+        <p class="p" style="--x:17;--y:1436;--w:351;--dx:80;--dy:2040;--dw:380">TV and digital video commercials&nbsp;— ideas turned into short, precise stories for broadcast and online.</p>
+      </article>
+    </section>
+
+    <!-- ===================== 9. CONTACT ===================== -->
+    <section class="s" id="contact" style="--sh:430;--dsh:640">
+      <span class="box index index--l" style="--x:109;--y:57;--w:78;--h:28;--dx:480;--dy:66;--dw:200;--dh:64">05</span>
+      <h2 class="sr-only">Project? Let’s talk</h2>
+      <span class="t serif" style="--x:212;--y:57;--h:28;--w:150;--dx:720;--dy:66;--dh:64;--dw:343" aria-hidden="true">Project?</span>
+      <span class="t sans" style="--x:109;--y:89;--h:18;--w:120;--dx:480;--dy:156;--dh:46;--dw:293" aria-hidden="true">Let’s talk</span>
+
+      <span class="num" style="--x:19;--y:100;--dx:80;--dy:52">07</span>
+      <span class="num" style="--x:93;--y:100;--dx:392;--dy:52">8</span>
+      <figure class="box ph ph--xs" style="--x:19;--y:109;--w:79;--h:95;--dx:80;--dy:66;--dw:320;--dh:380">
+        <img src="images/city.jpg" alt="Bridge and city" class="f-bw">
+      </figure>
+      <p class="cities" style="--x:0;--y:210;--w:98;--dx:80;--dy:470;--dw:320">
+        <span>We create:</span>
+        Photo<br>Video<br>Social
+      </p>
+
+      <form class="form" novalidate>
+        <label class="field box" style="--x:109;--y:235;--w:259;--h:46;--dx:480;--dy:262;--dw:820;--dh:84">
+          <span class="sr-only">Your name</span>
+          <input type="text" name="name" placeholder="Your name" autocomplete="name" required>
+        </label>
+        <label class="field box" style="--x:109;--y:288;--w:259;--h:46;--dx:480;--dy:372;--dw:820;--dh:84">
+          <span class="sr-only">Your number</span>
+          <input type="tel" name="phone" placeholder="Your number" autocomplete="tel" inputmode="tel" required>
+        </label>
+        <button class="btn box" style="--x:109;--y:349;--w:107;--h:29;--dx:480;--dy:500;--dw:220;--dh:52" type="submit">Get in touch</button>
+        <p class="form__status" style="--x:225;--y:350;--w:143;--dx:730;--dy:512;--dw:420" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===================== 10. FOOTER ===================== -->
+  <footer class="s foot" style="--sh:422;--dsh:940">
+    <div class="map map--foot" aria-hidden="true"></div>
+    <span class="box rule rule--solid" style="--x:17;--y:22;--w:351;--h:6;--dx:80;--dy:40;--dw:1280;--dh:8"></span>
+
+    <span class="t serif" style="--x:20;--y:45;--h:32;--w:140;--dx:80;--dy:86;--dh:60;--dw:273">Darbaan</span>
+    <span class="cap cap--dark cap--up cap--b" style="--x:166;--y:45;--dx:372;--dy:86">creative marketing agency</span>
+    <span class="t sans" style="--x:166;--y:55;--h:22;--w:180;--dx:372;--dy:106;--dh:40;--dw:331">Visual Studio</span>
+
+    <span class="t heavy" style="--x:20;--y:90;--h:68;--w:195;--dx:80;--dy:220;--dh:230;--dw:640" aria-hidden="true">Mome</span>
+    <span class="t heavy" style="--x:180;--y:160;--h:70;--w:140;--dx:600;--dy:476;--dh:230;--dw:450" aria-hidden="true">nts</span>
+    <span class="t serif ghost" style="--x:330;--y:160;--h:70;--w:24;--dx:1080;--dy:476;--dh:230;--dw:90" aria-hidden="true">e</span>
+    <span class="sr-only">Moments that stay with us</span>
+
+    <ul class="social" style="--x:257;--y:83;--dx:800;--dy:236">
+      <li><a href="https://t.me/" target="_blank" rel="noopener">[&nbsp;&nbsp;telegram&nbsp;&nbsp;]</a></li>
+      <li><a href="https://instagram.com/" target="_blank" rel="noopener">[&nbsp;&nbsp;instagram&nbsp;&nbsp;]</a></li>
+    </ul>
+
+    <p class="t sans sans--tiny" style="--x:205;--y:238;--h:8;--w:22;--dx:600;--dy:742;--dh:16;--dw:44" aria-hidden="true">that</p>
+    <p class="t sans sans--tiny" style="--x:205;--y:250;--h:8;--w:22;--dx:600;--dy:766;--dh:16;--dw:44" aria-hidden="true">stay</p>
+    <span class="t serif" style="--x:235;--y:235;--h:32;--w:133;--dx:660;--dy:736;--dh:70;--dw:320" aria-hidden="true">with us</span>
+
+    <a class="btn box" style="--x:180;--y:287;--w:109;--h:29;--dx:80;--dy:660;--dw:220;--dh:52" href="#contact">Get in touch</a>
+
+    <a class="legal" style="--x:17;--y:338;--dx:80;--dy:866" href="privacy.html">Privacy<br>policy</a>
+    <p class="legal legal--r" style="--x:246;--y:338;--w:122;--dx:1100;--dy:866;--dw:260"><span class="js-year">2026</span><br>All rights reserved</p>
+  </footer>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
