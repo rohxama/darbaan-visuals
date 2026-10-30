@@ -12,7 +12,7 @@
 
 :root {
   --bg: #F7F7F5;
-  --ink: #111111;
+  --ink: #5A2221;
   --muted: #7A7A7A;
   --line: #C4C4C4;
 
@@ -21,7 +21,7 @@
   --sans: "Oswald", "Arial Narrow", sans-serif;
   --text: "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
 
-  --rule: linear-gradient(90deg, #0b0b0b 0%, #1d1d1d 55%, #5c5c5c 85%, #a9a9a9 100%);
+  --rule: linear-gradient(90deg, #5A2221 0%, #5A2221 55%, rgba(90, 34, 33, .65) 85%, rgba(90, 34, 33, .3) 100%);
   --radius: .8rem;
 }
 
@@ -106,12 +106,12 @@ h1, h2, h3 { font-weight: 400; }
   top: calc((var(--y) - var(--h) * .171) * .1rem);
   text-transform: uppercase;
 }
-.sans--soft { font-weight: 300; color: #2b2b2b; }
-.sans--tiny { font-weight: 400; color: #2b2b2b; }
+.sans--soft { font-weight: 300; color: var(--ink); }
+.sans--tiny { font-weight: 400; color: var(--ink); }
 .ghost { color: #D9D9D7; }
 
 .hollow { color: transparent; -webkit-text-stroke: .1rem var(--ink); }
-.hollow.serif { color: #EFEFED; -webkit-text-stroke: .08rem #1a1a1a; }
+.hollow.serif { color: #EFEFED; -webkit-text-stroke: .08rem var(--ink); }
 /* White band cut into the photo behind a word (cap-height tall) */
 .knock {
   background: linear-gradient(var(--bg), var(--bg)) 0 .09em / 100% .76em no-repeat;
@@ -133,7 +133,7 @@ h1, h2, h3 { font-weight: 400; }
   font-size: 1.24rem;
   line-height: 1;
   text-align: justify;
-  color: #161616;
+  color: var(--ink);
 }
 
 /* Justified one-liners that spread across their width */
@@ -157,7 +157,7 @@ h1, h2, h3 { font-weight: 400; }
   color: var(--muted);
   font-weight: 400;
 }
-.cap--dark { color: #3a3a3a; }
+.cap--dark { color: var(--ink); }
 .cap--up { text-transform: uppercase; letter-spacing: .02em; }
 .cap--r { text-align: right; }
 .cap--b { font-weight: 700; font-size: .72rem; line-height: 1.1; }
@@ -171,7 +171,7 @@ h1, h2, h3 { font-weight: 400; }
 
 /* ---------- Decorative lines and frames ---------- */
 .rule { background: var(--rule); }
-.rule--solid { background: linear-gradient(90deg, #0b0b0b 0%, #111 80%, #6d6d6d 100%); }
+.rule--solid { background: linear-gradient(90deg, #5A2221 0%, #5A2221 80%, rgba(90, 34, 33, .6) 100%); }
 .hair { background: var(--line); }
 .frame { border: 1px solid var(--line); }
 .frame--tl { border-right: 0; border-bottom: 0; }
@@ -252,7 +252,7 @@ h1, h2, h3 { font-weight: 400; }
   font-weight: 400;
   font-size: 1.1rem;
   letter-spacing: .02em;
-  color: #2a2a2a;
+  color: var(--ink);
   text-transform: uppercase;
   cursor: pointer;
   transition: background-color .25s, color .25s;
@@ -370,7 +370,7 @@ h1, h2, h3 { font-weight: 400; }
   font-weight: 300;
   line-height: 1;
   text-transform: uppercase;
-  color: #2a2a2a;
+  color: var(--ink);
 }
 
 /* ---------- Contact ---------- */
@@ -395,9 +395,9 @@ h1, h2, h3 { font-weight: 400; }
   outline: none;
   background: var(--rule) 0 100% / 100% .4rem no-repeat;
 }
-.field input::placeholder { color: #2b2b2b; opacity: 1; }
+.field input::placeholder { color: var(--ink); opacity: 1; }
 .field input:focus::placeholder { color: #9a9a9a; }
-.field--err input::placeholder, .field--err input { color: #8a1c1c; }
+.field--err input::placeholder, .field--err input { color: #B3261E; }
 .form__status {
   font-size: .85rem;
   line-height: 1.2;
